@@ -2,6 +2,8 @@
 
 This is an example of a high data ingestion system.
 
+ ![Architecture](/Architecture.png)
+
 Data is inserted into a Cosmos DB via an Azure Function, an Http Trigger.
 
 This example shows the proper way to managing connections for the Cosmos DB `CosmosClient` class.
